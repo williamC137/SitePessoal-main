@@ -6,8 +6,7 @@
 }
 body{
     background-color:black;
-    text-align:center
-} 
+}
 .menu_superior{
     background-color: black;
     height: 15vh;
@@ -60,14 +59,15 @@ body{
 .texto{
     text-align:center;
     position:absolute;
-    margin: 8% 10%;
+    margin-top: 10rem;
+    margin-left: 15rem;
     font-size:medium;
-    padding:2vw;
+    padding:5vw;
     background-color:rgba(220, 235, 247, 0.966);
     height:auto;/* elemento o ocupa o tamanho da tela inteira */
     border-radius:2rem;
+    width:60vw
 }
-
 .primeiro_paragrafo, .segundo_paragrafo{
     text-align:justify;
 }
@@ -101,11 +101,10 @@ body{
 }
 .conteudo_contato{
     display:flex;
-    margin-top: 40px;
 }
 .contatos ul{
     text-align:justify;
-    margin:40px 30px;
+    margin:40px 0px;
 }
 .contatos p{
     font-family: 'Inconsolata', monospace;
@@ -135,19 +134,6 @@ body{
     background-color:rgba(128, 126, 126, 0.774);
     cursor:pointer;
 }
-@media screen and (max-width: 1024px){
-   .menu_superior .menu{
-        height:90px;
-        margin: 5% 32%;
-        display:flex 
-    }
-    .menu_superior .botoes_menu{
-        padding-right:50px;
-        height: 90px;
-        display:flex 
-    }
-
-}
 @media screen and (max-width: 768px){
     body{
         display:block;
@@ -156,44 +142,46 @@ body{
         height:90px;
         position:fixed;
         z-index: 1;
-        margin-top: 0
+        margin-top: 0;
+        width:100vw;
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: stretch;
+        justify-content: center;
     }
     .menu_superior .icone{
         width:0;
     }
     .menu_superior .botao_imagem{
-        margin-left: 10%;
+        margin-left: 1em;
     }
     .menu_superior img{
-        margin: 25px 
+        margin: 15px 
     }
     .menu_superior .menu{
         height:90px;
-        margin: 5% 32%;
+        margin-left: 6em;
         display:flex 
     }
     .menu_superior .botoes_menu{
-        padding-right:50px;
-        height: 90px;
-        display:flex 
+        width:60vw;
+        display:flex;
+        height:auto;
     }
-    .menu_superior .botoes_menu a{
+    .menu_superior .botoes_menu {
         height: 0px;
+        
     }
     .menu button{
         font-size:smaller;
-        padding: 10px 14px;
-        margin: 4px;
-    }
-    #texto1{
-        padding-top:5%
+        padding: 10px;
+        margin-left:0.1em;
     }
     section .texto{
-        margin-top:20%;
         position:absolute;
-        width:77%;
+        margin-top:6em;
+        width:90vw;
         margin-left:0;
-        padding-top: 25%;
     }
     .primeiro_paragrafo p, .segundo_paragrafo p, li, .conteudo_contato p{
         font-size: 13px;
@@ -204,11 +192,8 @@ body{
     .destaque{
         font-size:20px
     }
-    .experiencia{
-        margin-top:20%;
-    }
     .minha_foto img{
-        height:200px;
+        height:20vh;
         padding: 0;
     }
     .contatos p{
@@ -226,8 +211,5 @@ body{
     }
     .contatos button:active{
         background-color:rgba(128, 126, 126, 0.774);
-    }
-    .experiencia, .contato{
-        padding-top: 90%;
     }
 }
