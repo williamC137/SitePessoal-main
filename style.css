@@ -137,7 +137,19 @@ body{
 .experiencia, .contato{
     padding-top: 20%;
 }
+@media screen and (max-width: 1024px){
+   .menu_superior .menu{
+        height:90px;
+        margin: 5% 32%;
+        display:flex 
+    }
+    .menu_superior .botoes_menu{
+        padding-right:50px;
+        height: 90px;
+        display:flex 
+    }
 
+}
 @media screen and (max-width: 768px){
     body{
         display:block;
