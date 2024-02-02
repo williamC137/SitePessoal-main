@@ -156,7 +156,8 @@ body{
         margin-left: 1em;
     }
     .menu_superior img{
-        margin: 15px 
+        margin: 15px;
+        margin-left:2px;
     }
     .menu_superior .menu{
         height:90px;
@@ -167,6 +168,8 @@ body{
         width:60vw;
         display:flex;
         height:auto;
+        height: 0px;
+
     }
     .menu_superior .botoes_menu {
         height: 0px;
@@ -175,7 +178,7 @@ body{
     .menu button{
         font-size:smaller;
         padding: 10px;
-        margin-left:0.1em;
+        margin-left:1em;
     }
     section .texto{
         position:absolute;
