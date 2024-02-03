@@ -101,15 +101,16 @@ body{
 }
 .conteudo_contato{
     display:flex;
+    margin-top:15px;
 }
 .contatos ul{
     text-align:justify;
-    margin:40px 0px;
+    margin: 20px 0px;
 }
 .contatos p{
     font-family: 'Inconsolata', monospace;
     text-align:justify;
-    margin-left: 70px;
+    margin-left: 40px;
 }
 .contatos li{
     list-style-type:none; /* retirar os círculos da lista não ordenada */
@@ -160,25 +161,21 @@ body{
         margin-left:2px;
     }
     .menu_superior .menu{
-        height:90px;
         margin-left: 6em;
-        display:flex 
     }
     .menu_superior .botoes_menu{
         width:60vw;
         display:flex;
         height:auto;
-        height: 0px;
-
-    }
-    .menu_superior .botoes_menu {
-        height: 0px;
-        
     }
     .menu button{
-        font-size:smaller;
-        padding: 10px;
-        margin-left:1em;
+        font-size:12px;
+        padding: 1em;
+        margin-left:0.5em;
+        width:6em
+    }
+    #botao_exp{
+        width:8em
     }
     section .texto{
         position:absolute;
@@ -197,7 +194,6 @@ body{
     }
     .minha_foto img{
         height:20vh;
-        padding: 0;
     }
     .contatos p{
         font-size:large;
